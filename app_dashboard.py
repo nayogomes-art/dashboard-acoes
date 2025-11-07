@@ -307,7 +307,6 @@ st.markdown("---")
 st.caption("App criado conforme pedido — tema claro por defeito. Podes alternar o design via sidebar.") 
 
 # Clonar o repositório
-git clone https://github.com/teu-utilizador/dashboard-acoes.git
 cd dashboard-acoes
 
 # Editar o ficheiro
