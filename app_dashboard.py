@@ -305,3 +305,16 @@ else:
 
 st.markdown("---")
 st.caption("App criado conforme pedido — tema claro por defeito. Podes alternar o design via sidebar.") 
+
+# Clonar o repositório
+git clone https://github.com/teu-utilizador/dashboard-acoes.git
+cd dashboard-acoes
+
+# Editar o ficheiro
+nano app_dashboard.py  # (ou abre no VS Code)
+
+# Depois:
+git add app_dashboard.py
+git commit -m "Fix: parse Data column as datetime"
+git push
+
